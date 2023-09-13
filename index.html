@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="image/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="container">
+        <table class="table text-center">
+
+            <thead> 
+                 <!--premiere ligne entete  -->
+                <tr>
+                    <th>Nom de l article</th>
+                    <th>Quantite</th>
+                    <th>Prix</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- corps -->
+            <tr>
+
+            <td>
+                <div>
+                    <img  src="image/robe1.webp" alt="oups">
+                    <li>Robe Imprimée fleurie</li>
+                    <button  class="btn btn-danger removeBtn">Remove</button>
+                </div>
+            </td>
+
+            <td>
+                <div class="d-flex justify-content-center align-items center mt-5">
+
+                    <button class="btn btn-primary me-2 decreaseBtn" >-</button>
+                    <input type="number" class="form-control w-25 text-center " min="1" value="1">
+                    <button class="btn btn-primary ms-2 increaseBtn" >+</button>
+                </div>
+            </td>
+
+            <td>
+                <div class="d-flex justify-content-center align-items center mt-5">
+
+                    <h6 class="prixUnitaire"> 8000</h6> <h6>CFA</h6>
+                 </div>
+            </td>
+
+            <td>
+                <div class="d-flex justify-content-center align-items center mt-5">
+
+                    <h6 class="prixTotal"> 0</h6><h6>FCFA</h6>
+                 </div>
+            </td>
+
+            </tr>
+         
+            <tr>
+
+            <td>
+                <div>
+                    <img src="image/sac.webp" alt="oups">
+                    <li>Sac a main</li>
+                    <button  class="btn btn-danger removeBtn">Remove</button>
+                </div>
+            </td>
+
+            <td>
+                <div class="d-flex justify-content-center align-items center mt-5">
+
+                    <button class="btn btn-primary me-2 decreaseBtn" >-</button>
+                    <input type="number" class="form-control w-25 text-center" min="1" value="1">
+                    <button class="btn btn-primary ms-2 increaseBtn" >+</button>
+                </div>
+            </td>
+
+            <td>
+                
+                <div class="d-flex justify-content-center align-items center mt-5">
+
+                    <h6 class="prixUnitaire"> 5000</h6> <h6>CFA</h6>
+                 </div>
+            </td>
+
+            <td>
+                <div class="d-flex justify-content-center align-items center mt-5">
+
+                    <h6 class="prixTotal"> 0</h6><h6>FCFA</h6>
+                 </div>
+            </td>
+
+            </tr>
+
+          
+            <tr>
+            <td>
+                <div>
+                    <img src="image/cargo.jpg" alt="oups">
+                    <li>Pantalon Cargo</li>
+                    <button  class="btn btn-danger removeBtn">Remove</button>
+                </div>
+            </td>
+
+            <td >
+                <div class="d-flex justify-content-center align-items center mt-5">
+
+                    <button class="btn btn-primary me-2 decreaseBtn" >-</button>
+                    <input type="number" class="form-control w-25 text-center" min="1" value="1">
+                    <button class="btn btn-primary ms-2 increaseBtn" >+</button>
+                </div>
+            </td>
+
+            <td>
+                <div class="d-flex justify-content-center align-items center mt-5">
+
+                    <h6 class="prixUnitaire"> 10000</h6> <h6>CFA</h6>
+                </div>
+            </td>
+            <td>
+                <div class="d-flex justify-content-center align-items center mt-5">
+
+                    <h6 class="prixTotal"> 0</h6> <h6>FCFA</h6>
+</div>
+            </td>
+        </tr>
+
+    </tbody>
+            
+        </table>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+</html>
